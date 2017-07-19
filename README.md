@@ -2,17 +2,14 @@
 Rock Paper Scissors Lizard Spock: An interactive two-player game where old school meets sci-fi.
 
 
-public partial class frmMain : Form
-    {
+
+        public frmMain()
+        {
         string plyr1 = "";
         string plyr2 = "";
         int round = 1;
         int score1 = 0;
         int score2 = 0;
-
-        public frmMain()
-        {
-
             InitializeComponent();
         }
         private void groupBox1_Enter(object sender, EventArgs e)
