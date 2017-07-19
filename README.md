@@ -1,10 +1,9 @@
 # RPSLS
-
-Description
 Rock Paper Scissors Lizard Spock: An interactive two-player game where old school meets sci-fi.
 
 
- public partial class frmMain : Form{
+public partial class frmMain : Form
+    {
         string plyr1 = "";
         string plyr2 = "";
         int round = 1;
@@ -361,5 +360,6 @@ Rock Paper Scissors Lizard Spock: An interactive two-player game where old schoo
             lblPlayer1Score.Text = txtPlayer1.Text;
              lblPlayer2Score.Text = txtPlayer2.Text;
         }
-}
+
     }
+}
